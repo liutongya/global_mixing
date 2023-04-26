@@ -1,0 +1,9 @@
+ &diagnostics_list
+# 1 day
+  frequency(1) = -86400.0,
+  filename(1) = 'DiagVel_1day',
+  fields(1,1) = 'UVEL','VVEL','UVELSQ','VVELSQ','PsiVEL', 'PhiVEL',
+  timePhase(1) = 0.,
+ &
+ &DIAG_STATIS_PARMS
+ &

@@ -1,0 +1,65 @@
+ &PTRACERS_PARM01
+ PTRACERS_numInUse=9,
+ PTRACERS_Iter0= 0,
+# one year = 31449600 s
+# one month = 2620800 
+ PTRACERS_dumpFreq=86400.0,
+ PTRACERS_taveFreq=0.,
+
+# TRACER 1 - latitude, yearly reset, scheme 80, k=0
+ PTRACERS_names(1)='trlat',
+ PTRACERS_advScheme(1)=80,
+ PTRACERS_diffKh(1)=0.,
+ PTRACERS_initialFile(1)='/data/home/liutongya/mixing/BINS/lat_tracer.bin',
+#PTRACERS_resetFreq(1)=31449600.,
+# TRACER 2 - latitude, yearly reset, scheme 80, k=0
+ PTRACERS_names(2)='trsst',
+ PTRACERS_advScheme(2)=80,
+ PTRACERS_diffKh(2)=0.,
+ PTRACERS_initialFile(2)='/data/home/liutongya/mixing/BINS/sst_tracer.bin',
+#PTRACERS_resetFreq(2)=31449600.,
+# TRACER 3 - psi, yearly reset, scheme 80, k=0
+ PTRACERS_names(3)='trsst',
+ PTRACERS_advScheme(3)=80,
+ PTRACERS_diffKh(3)=0.,
+ PTRACERS_initialFile(3)='/data/home/liutongya/mixing/BINS/psi_tracer_ave.bin',
+#PTRACERS_resetFreq(3)=31449600.,
+
+# TRACER 1 - latitude, yearly reset, scheme 80, k=20
+ PTRACERS_names(4)='trlat',
+ PTRACERS_advScheme(4)=80,
+ PTRACERS_diffKh(4)=20.,
+ PTRACERS_initialFile(4)='/data/home/liutongya/mixing/BINS/lat_tracer.bin',
+#PTRACERS_resetFreq(1)=31449600.,
+# TRACER 2 - latitude, yearly reset, scheme 80, k=20
+ PTRACERS_names(5)='trsst',
+ PTRACERS_advScheme(5)=80,
+ PTRACERS_diffKh(5)=20.,
+ PTRACERS_initialFile(5)='/data/home/liutongya/mixing/BINS/sst_tracer.bin',
+#PTRACERS_resetFreq(2)=31449600.,
+# TRACER 3 - psi, yearly reset, scheme 80, k=20
+ PTRACERS_names(6)='trsst',
+ PTRACERS_advScheme(6)=80,
+ PTRACERS_diffKh(6)=20.,
+ PTRACERS_initialFile(6)='/data/home/liutongya/mixing/BINS/psi_tracer_ave.bin',
+#PTRACERS_resetFreq(3)=31449600.,
+
+# TRACER 1 - latitude, yearly reset, scheme 80, k=50
+ PTRACERS_names(7)='trlat',
+ PTRACERS_advScheme(7)=80,
+ PTRACERS_diffKh(7)=50.,
+ PTRACERS_initialFile(7)='/data/home/liutongya/mixing/BINS/lat_tracer.bin',
+#PTRACERS_resetFreq(1)=31449600.,
+# TRACER 2 - latitude, yearly reset, scheme 80, k=50
+ PTRACERS_names(8)='trsst',
+ PTRACERS_advScheme(8)=80,
+ PTRACERS_diffKh(8)=50.,
+ PTRACERS_initialFile(8)='/data/home/liutongya/mixing/BINS/sst_tracer.bin',
+#PTRACERS_resetFreq(2)=31449600.,
+# TRACER 3 - psi, yearly reset, scheme 80, k=50
+ PTRACERS_names(9)='trsst',
+ PTRACERS_advScheme(9)=80,
+ PTRACERS_diffKh(9)=50.,
+ PTRACERS_initialFile(9)='/data/home/liutongya/mixing/BINS/psi_tracer_ave.bin',
+#PTRACERS_resetFreq(3)=31449600.,
+ &
